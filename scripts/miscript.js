@@ -137,6 +137,10 @@ const haceBoton = function () {
     Navbutton.addEventListener('click', function (e) {
       navs.forEach(nv => nv.classList.remove('active'));
       Navbutton.classList.add('active');
+      if (conteNav.classList.contains('active')) {
+        hambur.classList.toggle('rotate');
+        conteNav.classList.remove('active');
+      }
     });
   });
 };
