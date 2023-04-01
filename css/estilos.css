@@ -481,9 +481,10 @@ H2 {
 @media screen and (max-width: 900px) {
   .contenedorS {
     display: flex;
+    min-width: 523px;
     position: absolute;
     width: 99.5%;
-    height: 3460px;
+    height: 3830px;
     background: linear-gradient(150deg, #5914c7, #f6fa02, #c51212);
     animation: bgGradient 8s ease infinite;
     background-size: 200% 150%;
@@ -611,11 +612,11 @@ H2 {
     filter: blur(0.5px);
     top: 35px;
     left: 18%;
-
     width: 65%;
-    height: 3440px;
+    height: 2820px;
     padding: 0;
     margin: auto;
+    min-width: 430px;
     border-left: 1px solid rgb(192, 192, 196);
     border-right: 1px solid rgb(192, 192, 196);
 
@@ -628,7 +629,7 @@ H2 {
     position: sticky;
     padding-left: 20px;
     padding-top: 1%;
-    height: 4%;
+    height: 3%;
     width: 16%;
     top: 5.5rem;
   }
@@ -646,6 +647,7 @@ H2 {
     display: block;
     position: absolute;
     box-sizing: border-box;
+
     top: 2rem;
     left: 0px;
     font-size: 15px;
@@ -819,7 +821,8 @@ H2 {
     box-sizing: border-box;
     z-index: -1;
     top: 59rem;
-    bottom: 10px;
+    height: 100%;
+
     left: 0;
     right: 0;
     background-color: #020202;
@@ -831,7 +834,7 @@ H2 {
     position: absolute;
     box-sizing: border-box;
     padding-left: 10px;
-    top: 100rem;
+    top: 120rem;
     width: 100%;
     height: 400px;
     font-size: 15px;
@@ -853,7 +856,7 @@ H2 {
     line-height: 2rem;
     width: 100%;
     height: 400px;
-    top: 170rem;
+    top: 193rem;
     font-size: 20px;
     padding: 10px;
     color: #ffffff;
@@ -899,9 +902,10 @@ H2 {
     display: flex;
     box-sizing: border-box;
     position: absolute;
-    top: 215rem;
+    top: 237rem;
     left: 0;
     background: #000000;
+    font-size: 15px;
     width: 100%;
     height: 40px;
     padding: 5px;
